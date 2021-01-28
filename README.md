@@ -114,7 +114,15 @@ For Usearch command manual, please visit http://www.drive5.com/usearch/manual/
 
 For Cotu-generator.py manual, please visit https://github.com/YanleiLiu1989/Cotu-master
 
-Multiple copy analysis is also achieved, 
+Multiple copy analysis is also achieved
+# How to use Cotu for mutliple copy Cotu generation
+Run the Cotu-master to generate -cn [number] Cotu for the sample in the list.txt without the sequence number limitation in mafft alignment.
+
+python fun.py --filelist list.txt -cn [number]
+
+Run the Cotu-master to generate number] Cotus for the sample in the list.txt with the massive sequence number for mafft limited to 500.
+
+python fun.py --filelist list.txt --seq_number 500 -cn [number]
 
 # How to cite Cotu
 Liu Y, Xu C, Sun Y, Wu P, Chen X, Dong W, Yang X, and Zhou S. 2021. Method for quick DNA barcode reference library construction. Journal of Systematics and Evolution (submitted)
