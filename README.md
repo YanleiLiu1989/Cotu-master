@@ -70,6 +70,8 @@ The consensus sequences are output as a fasta file for each sample. Document nam
 In order to facilitate researchers who are not good at bioinformatics, we packaged the sequence generation steps using Cotu method into “Cotu Master” (Supporting software.zip). Users can get final Cotu sequence very easily from a demltiplexed fastq file (with only one gene and one species in the fastq file and without artificial sequences).
 
 # How to use Cotu Master:
+Please download Cotu Master in https://github.com/YanleiLiu1989/Cotu-master and unzip usr.rar and tmp.rar in the Cotu Master folder or directly unzip Supporting software.7z.
+
 Python script fun.py is written for combination of each core steps in Cotu generation. Open cmd.exe, change to Cotu Master working folder and input:
 
 python Cotu-generator.py –help
