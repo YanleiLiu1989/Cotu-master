@@ -125,4 +125,4 @@ Run the Cotu-master to generate number] Cotus for the sample in the list.txt wit
 python fun.py --filelist list.txt --seq_number 500 -cn [number]
 
 # How to cite Cotu
-Liu Y, Xu C, Sun Y, Wu P, Chen X, Dong W, Yang X, and Zhou S. 2021. Method for quick DNA barcode reference library construction. Journal of Systematics and Evolution (submitted)
+Liu Y, Xu C, Sun Y, Wu P, Chen X, Dong W, Yang X, and Zhou S. 2021. Method for quick DNA barcode reference library construction. Ecology and Evolution (submitted)
